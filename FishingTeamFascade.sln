@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishingTeamFascade", "FishingTeamFascade\FishingTeamFascade.csproj", "{57397DE7-B8CD-43D0-AD7B-264E6E341675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{81E32393-91B4-4756-B7F1-B75B2272CAB8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{164516E2-F615-4EDE-AE77-0015D63B1785}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\FishingTeamFascade-WAWS-dev.json = PublishScripts\Configurations\FishingTeamFascade-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57397DE7-B8CD-43D0-AD7B-264E6E341675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57397DE7-B8CD-43D0-AD7B-264E6E341675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57397DE7-B8CD-43D0-AD7B-264E6E341675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57397DE7-B8CD-43D0-AD7B-264E6E341675}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{164516E2-F615-4EDE-AE77-0015D63B1785} = {81E32393-91B4-4756-B7F1-B75B2272CAB8}
+	EndGlobalSection
+EndGlobal
